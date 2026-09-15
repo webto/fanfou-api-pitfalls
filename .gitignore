@@ -1,0 +1,12 @@
+# 本地凭证 —— 绝不提交
+fanfou-credentials.json
+*.local.json
+.env
+.env.*
+*.p8
+
+# 运行产物
+node_modules/
+out/
+*.log
+.DS_Store

@@ -1,0 +1,17 @@
+{
+  "name": "fanfou-api-pitfalls",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fanfou API pitfalls, measured — a reproducible reference for undocumented API behaviour.",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "sign-check": "node scripts/sign-check.mjs",
+    "login": "node scripts/login.mjs",
+    "probe:favorites": "node scripts/probe-favorites-paging.mjs",
+    "probe:photos": "node scripts/probe-photo-urls.mjs",
+    "probe:cursors": "node scripts/probe-cursors.mjs",
+    "probe:mentions": "node scripts/probe-mentions.mjs"
+  }
+}
